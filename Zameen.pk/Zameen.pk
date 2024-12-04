@@ -1,0 +1,11 @@
+Title: Web_Scraper
+Description:  
+A Python-based web scraping script that extracts real estate data from Zameen.com for Karachi properties. This script leverages the `requests` and `BeautifulSoup` libraries to collect details such as location, area, price, number of bedrooms, and bathrooms from multiple pages. The scraped data is organized into a pandas DataFrame for further analysis or export.
+Features:  
+- Extracts property details including location, area, price, bedrooms, and bathrooms.  
+- Handles inconsistent data with padding and null value replacement.  
+- Outputs data in a structured pandas DataFrame format.  
+- Includes error handling for robust execution.
+- Flexible base URL: Easily modify the base_url to scrape property listings from different cities by adjusting the URL format and class names.
+Usage:
+Clone the repository and run the script to gather property data. Ideal for data analysis or building property-related applications. Modify the base_url and class names to adapt the scraper to other cities or websites.
